@@ -1,7 +1,7 @@
 name: Testing
 run-name: ${{ github.actor }} is testing the TodoListCLI🚀
 on: 
-  pull_request:
+  push:
     branches: [ "Marley" ]
 
 permissions:
